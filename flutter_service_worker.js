@@ -3,14 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "42868adb1c400a41cb7a6013e4aeab83",
+  "assets/AssetManifest.json": "fc88c39ebf7048bce3a4691a957694cd",
 "assets/assets/DKB_CV.pdf": "d41d8cd98f00b204e9800998ecf8427e",
 "assets/assets/fonts/MySocialIcons.ttf": "345787fe6cbe5bf827f3a84436278f6f",
 "assets/assets/fonts/Ubuntu-Bold.ttf": "e00e2a77dd88a8fe75573a5d993af76a",
 "assets/assets/fonts/Ubuntu-Medium.ttf": "8e22c2a6e3a3c679787e763a97fa11f7",
 "assets/assets/fonts/Ubuntu-Regular.ttf": "2505bfbd9bde14a7829cc8c242a0d25c",
-"assets/assets/images/ER-MainLogo2-block.png": "35c6e4f1442f917c3dbeba6fb53e96a9",
-"assets/assets/images/logo.png": "9114748921837ff639a09a09d5d202de",
+"assets/assets/images/logo.png": "35c6e4f1442f917c3dbeba6fb53e96a9",
 "assets/assets/images/man.png": "6459a78b8d655079c08d4249cbcc0db5",
 "assets/assets/images/me.png": "b7f39ada59a3ed565db9cc55f6a58002",
 "assets/assets/images/skills.png": "04ad928c30fb6b731c3ef7cae30af9ed",
@@ -43,8 +42,8 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "690fe6ba7f71e2f1c312dab176f96f9c",
 "icons/ms-icon-310x310.png": "39f239636b38fb1a6e32d99b24bf2898",
 "icons/ms-icon-70x70.png": "c3760db7c1accf4e36c1cacb3cbdac14",
-"index.html": "1ce718ad5c49106740e42a51f001fb0a",
-"/": "1ce718ad5c49106740e42a51f001fb0a",
+"index.html": "a13af305f6e3ea996daa9549c4d26263",
+"/": "a13af305f6e3ea996daa9549c4d26263",
 "main.dart.js": "692ae4b5dcded523f102d2cbf159f310",
 "manifest.json": "c0b3b9843cac3c5c921c7980bc39a6cd",
 "version.json": "ae6ec7e100fa218a70c1a7006c2c1b64"
