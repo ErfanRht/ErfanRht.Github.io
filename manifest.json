@@ -1,11 +1,11 @@
 {
-    "name": "Akora Ing. DKB",
-    "short_name": "Akora Ing. DKB",
+    "name": "Erfan Rahmati",
+    "short_name": "Erfan Rahmati",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Akora Ing. DKB's portfolio website.",
+    "description": "Erfan Rahmati's portfolio website.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
