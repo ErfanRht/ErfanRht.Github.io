@@ -1,63 +1,70 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-  <base href="/">
+    <meta charset="UTF-8">
+    <title>please wait ...</title>
+    <script defer src="index.dart.js" type="application/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="spinkit.css"> 
+    <style>
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="keywords" content="Erfan, Rahmati, Erfan Rahmati, Erfan Rahmati personal website, ErfanRht, Flutter Developer, Mobile & Web Developer">
-  <meta name="description" content="Erfan Rahmati's personal website.">
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid blue;
+            border-right: 16px solid green;
+            border-bottom: 16px solid red;
+            border-left: 16px solid pink;
+            width: 60px;
+            height: 60px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Erfan Rahmati">
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
 
-  <!-- Social Media Sharing Meta -->
-  <meta property="og:title" content="Erfan Rahmati">
-  <meta property="og:site_name" content="Erfan Rahmati">
-  <meta property="og:description" content="Erfan Rahmati's personal website.">
-  <meta property="og:image" itemprop="image" content="https://www.greaterworks.tech/wp-content/uploads/2020/10/dkb.jpg">
-  <meta property="og:url" content="https://ErfanRht.github.io/">
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@ErfanRht">
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="icons/favicon.ico" />
- 
-  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
 
-  <title>Erfan Rahmati</title>
-  <link rel="manifest" href="manifest.json">
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 
-<body>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3698224510');
-      });
-    }
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+<body> 
+  <div class="loading">
+    <div class="sk-chase">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+  </div>
+    <script src="main.dart.js" type="application/javascript"></script>
 </body>
 
 </html>
