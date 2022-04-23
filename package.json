@@ -1,0 +1,28 @@
+{
+  "name": "ErfanRht.Github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w assets/scss/ -o assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErfanRht/ErfanRht.Github.io.git"
+  },
+  "keywords": [
+    "Erfan Rahmati",
+    "ErfanRht",
+    "Portfolio",
+    "Github"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErfanRht/ErfanRht.Github.io/issues"
+  },
+  "homepage": "https://github.com/ErfanRht/ErfanRht.Github.io#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
